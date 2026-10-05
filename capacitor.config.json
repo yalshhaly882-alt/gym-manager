@@ -1,0 +1,19 @@
+{
+  "appId": "com.gymmanager.app",
+  "appName": "إدارة الجيم",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "CapacitorSQLite": {
+      "androidIsEncryption": true,
+      "androidBiometric": {
+        "biometricAuth": false
+      }
+    },
+    "LocalNotifications": {
+      "iconColor": "#0b6fe0"
+    }
+  }
+}
